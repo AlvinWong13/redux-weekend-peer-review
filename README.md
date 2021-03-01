@@ -35,8 +35,6 @@ Practicing compassionate code reviews is important (you can learn more from this
     - [x] Reducers are using spread correctly (to keep old data, while adding new)
   - [x] Review Component shows at all times with current redux state
   - [x] React-Redux Working
-    - [ ] `connect`ing components correctly & dispatching Actions onClick
-    - [ ] `mapStateToProps` when data is needed from Redux for submission
   - [x] Axios POST request to add feedback
 
 
@@ -97,7 +95,7 @@ General Feedback.
 | --- | :---: |
 | Multi page form with client side routing and navigation (next button) | yes |
 | Data stored in Redux when navigating from page to page | yes |
-| User is notified when trying to leave a blank score | no |
+| User is notified when trying to leave a blank score | yes |
 | Review Component displays scores and comments from current redux state | yes |
 | Submit button sends data to the server via Axios | yes |
 | Confirmation Page displays after data is POSTed to the server | yes |
@@ -107,7 +105,8 @@ General Feedback.
 ---
 ### Notes:
 
-Notes on the above Functional Requirements.
+Awesome app! Great use of material-ui, love the style choices.
+Only thing I saw was on the delete there was no warning you are going to delete otherwise everything else was spot on. 
 
 ---
 | General Items | Complete? |
@@ -122,6 +121,6 @@ Notes on the above Functional Requirements.
 ---
 ### Notes: 
 
-Awesome app! Great use of material-ui, love the style choices. Code comments are fantastic, great descriptions on what each function and feature will do and shows a really solid understanding of the code written. Detailed README really helped with getting started. Format is great and very consistent, easy to read. Overall really awesome weekend project, Dusty!
+ Code comments are fantastic, great descriptions on what each function and feature will do and shows a really solid understanding of the code written. Detailed README really helped with getting started. Format is great and very consistent, easy to read. Overall really awesome weekend project, Dusty!
 
 ```
